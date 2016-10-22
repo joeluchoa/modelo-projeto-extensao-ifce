@@ -1,0 +1,95 @@
+\documentclass[12pt]{article}
+\usepackage[portuguese]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{ragged2e}
+\usepackage{ulem} % Daniel
+
+\usepackage{indentfirst}
+\usepackage[alf]{abntex2cite}   % Citações padrãwo ABNT
+
+%\usepackage[showframe,paper=a4paper,margin=1cm]{geometry}%
+\usepackage[paper=a4paper,margin=1cm]{geometry}%
+
+\begin{document}
+
+\begin{titlepage}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+
+\thispagestyle{empty}
+\newgeometry{top=2.3cm,bottom=2.3cm,right=1.5cm,left=1.5cm}
+\noindent\HRule \\[0.4cm]
+\hspace{0.1\textwidth}
+\begin{minipage}{0.15\textwidth}
+\includegraphics[scale=0.17]{./logo-V-cor.jpg}
+\end{minipage}
+\begin{minipage}{1.2\textwidth}
+{\small
+\textsc{Ministério da Educação\\
+Instituto Federal de Educação, Ciência E Tecnologia Do Ceará – IFCE\\
+Pró-Reitoria de Pesquisa, Pós-Graduação e Inovação – PRPI\\
+Pró-Reitoria de Extensão – PROEXT\\
+Direção Geral – Campus Maracanaú\\
+Departamento de Extensão, Pesquisa, Pós-Graduação e Inovação – DEPPI}
+}
+\end{minipage}
+\\[0.4cm]
+\HRule \\[1.5cm]
+ 
+\center % Center everything on the page
+{\Huge
+Título do Projeto
+}
+\\[3cm]
+%
+%
+%
+\justify
+\Large
+{\bf Natureza do Projeto:}
+
+\center
+\begin{tabular}{lcr}
+( x ) Extensão & ( \quad ) Pesquisa & ( \quad ) Inovação
+\end{tabular}
+%( x ) Extensão
+%\qquad\qquad (  ) Pesquisa
+%\qquad\qquad (  ) Inovação
+\\[2cm]
+\justify
+\Large \textbf{Autores:}
+
+
+\begin{tabular}{lll}
+Coordenador: & Prof. X  & SIAPE: 0000000\\
+Participante: &  Prof. Y & SIAPE: 0000000\\
+Participante: &  Prof. Z & SIAPE: 0000000
+\end{tabular}
+
+%
+\qquad
+%
+\\[3cm]%
+%
+%
+%
+\center
+{\bf\Large Outubro / 2016}\\[2cm]
+\vfill
+\end{titlepage}
+
+
+
+
+\newgeometry{top=3cm,bottom=3cm,right=2cm,left=2cm}
+{\large
+\input{content}
+%\section{Referências}\hfill%
+%\bibliographystyle{abnt}
+\bibliography{referencias}
+}
+
+\end{document}
