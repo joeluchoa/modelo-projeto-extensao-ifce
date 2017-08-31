@@ -1,0 +1,12 @@
+*.snm
+*.nav
+*.aux
+*.bbl
+*.blg
+*.idx
+*.log
+*.tcp
+*.tps
+*.out
+*.toc
+projeto.pdf
